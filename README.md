@@ -1,3 +1,7 @@
+# 原牌
+
+原牌 Genpai 是一个网络合作项目，于 2021 年 11 月 28 日立项。
+
 # Tiddlywiki-NodeJS-Github-Template
 
 Wiki template for [TiddlyGit-Desktop](https://github.com/tiddly-gittly/TiddlyGit-Desktop), an App that can generate template wiki on one-click.
@@ -29,3 +33,4 @@ Automatically.
 ## Credit
 
 Scripts are inspired by [DiamondYuan/wiki](https://github.com/DiamondYuan/wiki)
+=======
