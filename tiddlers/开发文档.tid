@@ -1,6 +1,31 @@
 created: 20220601043506158
 creator: Syan
-modified: 20220601043506158
+modified: 20220601130838088
 modifier: Syan
 title: 开发文档
 type: text/vnd.tiddlywiki
+
+
+首先进行一个项目结构的介绍
+
+项目直接呈现的是位于项目主仓库[[Genpai|https://github.com/genpai-impact/genpai]]的unity项目文件目录，有文件树如下
+
+* Assets [Unity项目主目录]
+* Luban [Luban相关数据表格]
+* WwiseProject [音效相关项目文件]
+* doc [杂项指引文档]
+
+而在Unity的Assets文件目录下，以这样的形式对文件进行基础的组织
+
+* Materials [杂项贴图素材文件]
+* Plugins [外部引入的插件]
+* Resources [主要项目及美术资源]
+* Scenes [游戏场景]
+* Scripts [项目主要代码文件]
+* Shaders [Shader文件(谢谢你P佬)]
+* StreamingAssets [部分流读取资源文件]
+* Wwise [Wwise插件目录(塞不进Plugins)]
+
+而后续，我们将围绕Scripts中的代码结构，围绕具体功能模块对资源中的细节进行介绍。
+
+[[代码结构]]
