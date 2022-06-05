@@ -1,0 +1,18 @@
+created: 20220601130908190
+creator: Syan
+modified: 20220601132552012
+modifier: Syan
+title: 代码结构
+type: text/vnd.tiddlywiki
+
+* BattleSystem
+* GameSystem
+* DataScripts
+* LubanDataScripts
+* Utils
+
+项目的核心代码结构划分为两个部分。
+
+其一为游戏核心的[[战斗系统]]，其二为游戏的[[外围系统]]。对应文件夹中的BattleSystem与GameSystem两部分。
+
+除此之外还有些零星的代码，如DataScripts用于管理数据，而LubanDataScripts则是由Luban生成的数据类读取器。还有Utils中主要储存项目中使用到的杂项工具类文件。

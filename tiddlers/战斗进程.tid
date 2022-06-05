@@ -1,0 +1,25 @@
+created: 20220605103854120
+creator: Syan
+modified: 20220605104900723
+modifier: Syan
+title: 战斗进程
+type: text/vnd.tiddlywiki
+
+《原牌》的游戏进程由NormalProcessManager管理，而NormalProcessManager被游戏的唯一入口GameContextScript启动。
+
+通过在战斗场景中挂在GameContextScript，我们能实现对战斗流程的激活
+
+在游戏进程启动前，GameContextScript将完成部分单例的预启动，随后进入游戏流程中IProcess的循环，有
+
+* ProcessGameStart
+* ProcessGame(代指循环)
+** ProcessBoss
+** ProcessRoundStart
+** ProcessRound
+** ProcessRoundEnd
+* ProcessGameEnd
+* ProcessGameRestart
+
+其中一级流程顺序进行，而二级流程循环进行。
+
+当游戏满足结算逻辑后，将会从ProcessGame二级中弹出并继续ProcessGameEnd流程。
