@@ -31,6 +31,12 @@
 		<priority>0.5</priority>
 	</url>
 	<url>
+		<loc>https://onetwo.ren/wiki/#:代码结构</loc>
+		<lastmod>2022-06-01</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
 		<loc>https://onetwo.ren/wiki/#:原牌</loc>
 		<lastmod>2022-06-01</lastmod>
 		<changefreq>monthly</changefreq>
@@ -39,6 +45,42 @@
 	<url>
 		<loc>https://onetwo.ren/wiki/#:开发文档</loc>
 		<lastmod>2022-06-01</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://onetwo.ren/wiki/#:战斗系统</loc>
+		<lastmod>2022-06-05</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://onetwo.ren/wiki/#:战斗系统-循环逻辑</loc>
+		<lastmod>2022-06-05</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://onetwo.ren/wiki/#:战斗系统-战斗逻辑</loc>
+		<lastmod>2022-06-05</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://onetwo.ren/wiki/#:战斗系统-玩家行为</loc>
+		<lastmod>2022-06-05</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://onetwo.ren/wiki/#:战斗系统-行为逻辑</loc>
+		<lastmod>2022-06-05</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://onetwo.ren/wiki/#:战斗进程</loc>
+		<lastmod>2022-06-05</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
